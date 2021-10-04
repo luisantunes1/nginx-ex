@@ -7,6 +7,8 @@ The application serves a single static html page via nginx.
 
 To build and run the application:
 
+Luis Antunes
+
 ```
 $ s2i build https://github.com/sclorg/nginx-ex centos/nginx-112-centos7 mynginximage
 $ docker run -p 8080:8080 mynginximage
